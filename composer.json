@@ -1,0 +1,24 @@
+{
+	"name": "bigfork/silverstripe-graphql-batching",
+	"description": "Adds support for HTTP-based batching of GraphQL operations in Silverstripe",
+	"type": "silverstripe-vendormodule",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Loz Calver",
+			"email": "lozcalver@bigfork.co.uk"
+		}
+	],
+	"require": {
+		"php": "^7.4 || ^8.0",
+		"silverstripe/framework": "^4",
+		"silverstripe/graphql": "^4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Bigfork\\SilverstripeGraphQLBatching\\": "src/"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
